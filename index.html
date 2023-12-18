@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="login">
+        <h2 class="active">Sign in</h2>
+        <form id="loginForm">
+            <input type="text" class="text" id="username" />
+            <span>username</span>
+            <br /><br />
+            <input type="password" class="text" id="password" />
+            <span>password</span>
+            <br />
+            <select id="role">
+                <option value="" selected disabled>Select Role</option>
+                <option value="buyer">Buyer</option>
+                <option value="seller">Seller</option>
+                <option value="visitor">Visitor</option>
+            </select>
+            <br />
+            <button type="button" class="signin" id="signinBtn">Sign In</button>
+            <hr />
+            <a href="#" class="forgot">Forgot Password?</a>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

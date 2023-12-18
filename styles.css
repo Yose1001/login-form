@@ -1,0 +1,138 @@
+body {
+    background-image: url('./image.jpeg');
+    background-color: #252525;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.login {
+    position: relative;
+    height: 570px;
+    width: 505px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 60px 60px;
+    background: url('./ship.jpg') no-repeat center center #505050;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+    border-radius: 20px;
+}
+
+form {
+    padding-top: 80px;
+}
+
+.active {
+    border-bottom: 2px solid #1161ed;
+}
+
+h2 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    border: none;
+    width: 90%;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+select {
+    font-size: 18px;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus+span {
+    opacity: 0.6;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.signin {
+    background-color: white;
+    color: black;
+    width: 98%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.signin:hover {
+    background: greenyellow;
+    box-shadow: 0px 4px 35px -5px greenyellow;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    top: 85px;
+    position: relative;
+}
+
+a {
+    text-align: center;
+    display: block;
+    top: 120px;
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.forgot {
+    color: white;
+    font-size: 16px;
+}
